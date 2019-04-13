@@ -1,9 +1,9 @@
 //Change navbar color on scroll
 $(window).scroll(function() {
   if ($(window).scrollTop()) {
-      $('.fixed-top').addClass('black');
+      $('.fixed-top').addClass('seeThru');
   }
   else {
-    $('.fixed-top').removeClass('black');
+    $('.fixed-top').removeClass('seeThru');
   }
 })

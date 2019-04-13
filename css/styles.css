@@ -1,6 +1,6 @@
 /* Navbar color change on scroll class */
-.fixed-top.black{
-  background-color: rgba(53, 0, 0, 0.9);
+.fixed-top.seeThru{
+  background-color: rgba(0, 255, 111, 0.9);
   transition: 0.4s;
   -webkit-transition: 0.4s;
 }
