@@ -1,18 +1,29 @@
+body {
+  background-color: #fff;
+}
+/* override primary button styles */
+.bg-primary {
+  background-color: #BDDB93!important;
+}
+
 /* Navbar color change on scroll class */
 .fixed-top.seeThru{
-  background-color: rgba(0, 255, 111, 0.9);
+  background-color: rgba(238,171,160, 0.7);
   transition: 0.4s;
   -webkit-transition: 0.4s;
 }
 
 /*Hover styles for menu */
-/*#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: ;
-}*/
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color:#285764;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #285764;
+}
 /* background image for profile image */
 
 header.masthead {
-  background: url("fall_leaves.png") no-repeat;
+  background: url("camera-1920.png") no-repeat;
 }
 
 header.masthead img {
@@ -28,18 +39,30 @@ header.masthead h1 {
   -webkit-text-stroke: 0.5px black;
 }
 
+.text-secondary {
+  color: #285764!important;
+}
 /*Styles for About section */
 
 section#about {
-    background-color: #002020!important;
+    background-color: #EEABA0!important;
   }
 /* Star color styles */
-#mastheadStar.star-light:after {
-  background-color: rgba(255, 0, 0, 0.0)!important;
+#mastheadStar.star-light::after {
+  background-color: transparent!important;
 }
 
 #aboutStar.star-light:after{
-  background-color: #002020!important;
+  background-color: #EEABA0!important;
+}
+
+hr.star-dark {
+  color: #285764!important;
+  border-color: #285764!important;
+}
+hr.star-dark::after {
+  color: #285764!important;
+  border-color: #285764!important;
 }
 
 /* Hire me transition style */
@@ -50,9 +73,9 @@ section#about {
 
 /*Footer styles */
 .footer {
-  background-color: #002020!important;
+  background-color: #2c3e50!important;
 }
 
 .copyright {
-  background-color: #350000!important;
+  background-color: #2c3e50!important;
 }
