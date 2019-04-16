@@ -3,7 +3,10 @@ body {
 }
 /* override primary button styles */
 .bg-primary {
-  background-color: #BDDB93!important;
+  background-color: #285764!important;
+}
+#mobileMenu .navbar-toggler:hover {
+  background-color: #93ADB5;
 }
 
 /* Navbar color change on scroll class */
@@ -17,8 +20,18 @@ body {
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color:#285764;
 }
-#mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #285764;
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active {
+  background-color:#285764!important;
+   color:#fff;
+}
+
+
+@media (min-width: 992px)
+
+#mainNav a.nav-link:active {
+  background: #285764;
+
 }
 /* background image for profile image */
 
@@ -41,6 +54,19 @@ header.masthead h1 {
 
 .text-secondary {
   color: #285764!important;
+}
+
+/* Portfolio styles */
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: rgba(189, 219, 147, 0.9);
+}
+
+#portfolio-modal-5 > div > a > i {
+  color: rgb(189, 219, 147);
 }
 /*Styles for About section */
 
@@ -71,6 +97,17 @@ hr.star-dark::after {
   -webkit-transition: 0.3s;
 }
 
+/*contact me styles */
+
+#sendMessageButton {
+  background-color: #285764;
+  border-color: #285764;
+}
+
+#sendMessageButton:hover {
+  background-color: #436F7C;
+  border-color:#436F7C;
+}
 /*Footer styles */
 .footer {
   background-color: #2c3e50!important;
@@ -78,4 +115,8 @@ hr.star-dark::after {
 
 .copyright {
   background-color: #2c3e50!important;
+}
+
+#designer {
+  color: #eeaba0;
 }
