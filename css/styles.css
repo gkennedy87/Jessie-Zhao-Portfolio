@@ -116,3 +116,7 @@ hr.star-dark::after {
 #designer {
   color: #eeaba0;
 }
+
+.btn-social:hover {
+  background-color: #EEABA0;
+}
